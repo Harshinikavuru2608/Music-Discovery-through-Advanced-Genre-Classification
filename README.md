@@ -36,10 +36,10 @@ This project can be run using Docker, which simplifies the setup and ensures com
 To use the pre-built Docker image, pull it from DockerHub and run it using the provided commands. Make sure to replace the file path with the path where your audio file is located:
 
 Commands:
-docker pull harshinikavuru26/genreclassification:v1
-docker run -it -v <path_to_your_audio_file_directory>:/data harshinikavuru26/genreclassification:v1
+- docker pull harshinikavuru26/genreclassification:v1
+- docker run -it -v <path_to_your_audio_file_directory>:/data harshinikavuru26/genreclassification:v1
 
 After running the Docker container, enter the names of your audio files when prompted:
-Please enter the path to your .mp3 file: <your_audio_file>.mp3
-Please enter the path to your .mid file: <your_midi_file>.mid
+- Please enter the path to your .mp3 file: <your_audio_file>.mp3
+- Please enter the path to your .mid file: <your_midi_file>.mid
 
